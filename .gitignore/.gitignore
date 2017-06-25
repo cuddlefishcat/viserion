@@ -2,12 +2,12 @@ from TwitterAPI import TwitterAPI
 from TwitterAPI import TwitterError
 import http.client
 
-
+metaphorminute = '575930104'
 RedditThrones = '872257637429243905'
 GameOfThrones = '180463340'
-followed = [RedditThrones, GameOfThrones]
+followed = [RedditThrones, GameOfThrones, metaphorminute]
 followed_string = ','.join(followed)
-general_webhook_url = ''
+general_webhook_url = 'https://discordapp.com/api/webhooks/328583077045731328/D-YQbNVDrQ4G04BKutSrChqfQ9L7J1vpQ2PUSSY2v6CJppCfsH25_Ur4_knwd4kpvUcb'
 
 CONSUMER_KEY = ''
 CONSUMER_SECRET = ''
